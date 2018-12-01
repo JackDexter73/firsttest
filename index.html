@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style>
+h1 {
+  color: darkred;
+}
+
+output {
+  color: darkred;
+}
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Physics calculator</h1>
+    <br>
+    <input type="number" id="firstnum" value="">
+    <select name="" id="">
+      <option value="comprimento">comprimento</option>
+      <option value="massa">massa</option>
+      <option value="tempo">tempo</option>
+      <option value="corrente eletrica">corrente eletrica</option>
+      <option value="temperatura termodinamica">temperatura termodinamica</option>
+      <option value="quantidade de substancia">quantidade de substancia</option>
+      <option value="intensidade luminosa">intensidade luminosa</option>
+    </select>
+    <select name="" id="">
+      <option value="">unit</option>
+    </select>
+
+    <br>
+    <br>
+
+    <input type="number" id="secondnum" value="">
+    <select name="" id="">
+      <option value="comprimento">comprimento</option>
+      <option value="massa">massa</option>
+      <option value="tempo">tempo</option>
+      <option value="corrente eletrica">corrente eletrica</option>
+      <option value="temperatura termodinamica">temperatura termodinamica</option>
+      <option value="quantidade de substancia">quantidade de substancia</option>
+      <option value="intensidade luminosa">intensidade luminosa</option>
+    </select>
+    <select name="" id="">
+      <option value="">unit</option>
+    </select>
+
+    <br>
+    <br>
+
+
+    <button onclick="buildnewrow()" type="button" name="button">Add number</button>
+<br>
+<br>
+    <button onclick="add()" type="button" name="button">+</button>
+    <button onclick="minus()" class="-">-</button>
+    <button onclick="modolo()"class="percent">%</button>
+    <br>
+    <button onclick="multiply()" type="button" name="button">*</button>
+    <button onclick="divide()"type="button" name="button">/</button>
+<br>
+<br>
+<button onclick="squareroot()" type="button" name="button">sqrt</button>
+<br>
+<button onclick="square()"type="button" name="button">^2</button>
+<button onclick="cubic()"type="button" name="button">^3</button>
+<button onclick="inversemultiplication()" type="button" name="button">^-1</button>
+<br>
+<br>
+<output name="result" id="resulto1"></output>
+    <script type="text/javascript" src="../javascript/script.js">
+  </script>
+  </body>
+</html>
