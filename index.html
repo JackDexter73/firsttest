@@ -70,7 +70,74 @@ output {
 <br>
 <br>
 <output name="result" id="resulto1"></output>
-    <script type="text/javascript" src="../javascript/script.js">
+    <script type="text/javascript" >
+      function add(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = parseFloat(firstnum) + parseFloat(secondnum);
+  document.getElementById("resulto1").innerHTML = result;
+}
+
+function minus(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = parseFloat(firstnum) - parseFloat(secondnum);
+  document.getElementById("resulto1").innerHTML = result;
+}
+
+function modolo(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = parseFloat(firstnum) % parseFloat(secondnum);
+  document.getElementById("resulto1").innerHTML = result;
+}
+
+function multiply(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = parseFloat(firstnum) * parseFloat(secondnum);
+  document.getElementById("resulto1").innerHTML = result;
+}
+
+function divide(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = parseFloat(firstnum) / parseFloat(secondnum);
+  document.getElementById("resulto1").innerHTML = result;
+}
+
+function squareroot(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = Math.sqrt(parseFloat(firstnum));
+  document.getElementById("resulto1").innerHTML = result;
+}
+
+function square(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = parseFloat(firstnum) * parseFloat(firstnum);
+  document.getElementById("resulto1").innerHTML = result;
+}
+
+function cubic(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = parseFloat(firstnum) * parseFloat(firstnum) * parseFloat(firstnum);
+  document.getElementById("resulto1").innerHTML = result;
+}
+
+function inversemultiplication(){
+  let firstnum = document.getElementById("firstnum").value;
+  let secondnum = document.getElementById("secondnum").value;
+  let result = 1/parseFloat(firstnum);
+  document.getElementById("resulto1").innerHTML = result;
+}
+//
+function buildnewrow(){
+  console.log("this function hasn't been build yet")
+}
+
   </script>
   </body>
 </html>
